@@ -1,0 +1,51 @@
+.line img{
+  width: 184px;
+  height: 236px;
+  font-size: 0;
+}
+.line,.content{
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+.line{
+  justify-content: space-between;
+  padding: 0 50px;
+  border-bottom: 1px solid #666;
+}
+.line .content h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+}
+.line .comic-show{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  font-size: 26px;
+  color: #999999;
+}
+.line .comic-show li{
+  padding-top: 20px ;
+  display: flex;
+  align-items: center;
+}
+.line .comic-detail{
+  margin-left: 40px;
+}
+.line .painter:before,.line .comic-type:before,.line .comic-date:before{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+.line .painter:before{
+  content: url("../icon/wode.svg");
+}
+.line .comic-type:before{
+  content: url("../icon/pen.svg");
+}
+.line .comic-date:before{
+  content: url("../icon/day.svg");
+}
